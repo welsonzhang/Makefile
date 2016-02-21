@@ -8,3 +8,6 @@ prog3:prog3.c
 	gcc prog3.c -o prog3
 prog4:prog3.c
 	gcc prog4.c -o prog4
+.PHONY:clean
+clean:
+	rm -rf prog1 prog2 prog3 prog4
